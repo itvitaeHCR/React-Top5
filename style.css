@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+header {
+  background-color: black;
+  color: whitesmoke;
+  font-size: 3rem;
+  height: 20vh;
+  width: auto;
+  border-style: none none outset none;
+  border-color: grey;
+  border-width: 3px;
+}
+
+footer {
+  background-color: black;
+  color: whitesmoke;
+  font-size: 3rem;
+  height: 10vh;
+  width: auto;
+  border-style: outset none none none;
+  border-color: grey;
+  border-width: 3px;
+}
+
+main {
+  min-height: 70vh;
+  background-image: linear-gradient(black, gray, black);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+main .kittie {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(138, 39, 39, 0.466);
+}
+main .kittie-name {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 2rem;
+  color: whitesmoke;
+}
+main img {
+  height: 250px;
+  width: 250px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}/*# sourceMappingURL=style.css.map */
